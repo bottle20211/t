@@ -95,6 +95,7 @@ form .input-box span.details{
  form input[type="radio"]{
    display: none;
    font-size: 20;
+   color: green;
  }
  #b{
    height: 45px;
