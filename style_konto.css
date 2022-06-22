@@ -39,16 +39,16 @@ font-weight: 500
     margin: 20px 0 12px 0;
 }
 
- #sheetdb-form .input-box{
+ #my-form .input-box{
  
     width: calc(100%  - 20px);
 }
-#sheetdb-form .input-box .details{
+#my-form .input-box .details{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
 }
-#sheetdb-form .input-box input{
+#my-form .input-box input{
     height: 45px;
     outline: none;
     border-radius: 5px;
@@ -60,9 +60,9 @@ font-weight: 500
   
 }
 
-#sheetdb-form .input-box input:focus,
+#my-form .input-box input:focus,
 
-#sheetdb-form .input-box input:valid{
+#my-form .input-box input:valid{
     border-color: green;
 
 }
