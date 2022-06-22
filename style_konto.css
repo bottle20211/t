@@ -32,23 +32,23 @@ font-weight: 500
     width: 30px;
     background: green;
 }
-.container form .user-details{
+.container form .sheetdb-form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-form .user-details .input-box{
+form .sheetdb-form .input-box{
  
     width: calc(100%  - 20px);
 }
-.user-details .input-box .details{
+.sheetdb-form .input-box .details{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
 }
-.user-details .input-box input {
+.sheetdb-form .input-box input {
     height: 45px;
     outline: none;
     border-radius: 5px;
@@ -60,9 +60,9 @@ form .user-details .input-box{
   
 }
 
-.user-details .input-box input:focus,
+.sheetdb-form .input-box input:focus,
 
-.user-details .input-box input:valid{
+.sheetdb-form .input-box input:valid{
     border-color: green;
 
 }
