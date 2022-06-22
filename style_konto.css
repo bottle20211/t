@@ -32,14 +32,14 @@ font-weight: 500
     width: 30px;
     background: green;
 }
-.container form #sheetdb-form{
+ #sheetdb-form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-form #sheetdb-form .input-box{
+ #sheetdb-form .input-box{
  
     width: calc(100%  - 20px);
 }
@@ -48,7 +48,7 @@ form #sheetdb-form .input-box{
     font-weight: 500;
     margin-bottom: 5px;
 }
-#sheetdb-form .input-box input {
+#sheetdb-form .input-box input{
     height: 45px;
     outline: none;
     border-radius: 5px;
