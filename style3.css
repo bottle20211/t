@@ -17,7 +17,7 @@
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.content form #my-form{
+.content #my-form{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -31,7 +31,7 @@
   width: calc(100% / 2 - 20px);
   font-size: 20;
 }
-form .input-box span.details{
+#my-form .input-box span.details{
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
