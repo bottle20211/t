@@ -17,7 +17,7 @@
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.content form .user-details{
+.content form #my-form{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -26,7 +26,7 @@
   font-weight: bolder;
 
 }
-form .user-details .input-box{
+form #my-form .input-box{
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
   font-size: 16;
@@ -37,7 +37,7 @@ form .input-box span.details{
   margin-bottom: 5px;
   font-size: 16;
 }
-.user-details .input-box input{
+#my-form .input-box input{
   height: 45px;
   width: 100%;
   outline: none;
@@ -48,8 +48,8 @@ form .input-box span.details{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+#my-form .input-box input:focus,
+#my-form .input-box input:valid{
   border-color: green;
   font-size: 16;
 }
@@ -91,11 +91,11 @@ form .input-box span.details{
    display: none;
    font-size: 16;
  }
- .button{
+ #b{
    height: 45px;
    margin: 35px 0
  }
- .button input{
+#b input{
    height: 100%;
    width: 100%;
    border-radius: 5px;
@@ -108,7 +108,7 @@ form .input-box span.details{
    transition: all 0.3s ease;
    background: linear-gradient(135deg, #d9d9d9, green);
  }
- .button input:hover{
+ #b input:hover{
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #d9d9d9, green);
   }
