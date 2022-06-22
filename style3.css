@@ -71,11 +71,13 @@ form .input-box span.details{
    align-items: center;
    cursor: pointer;
    font-size: 20;
+   color: green;
  }
  form .category label .dot{
   height: 18px;
   width: 18px;
   font-size: 20px;
+  color: green;
   border-radius: 50%;
   margin-right: 10px;
   background: #d9d9d9;
@@ -88,6 +90,7 @@ form .input-box span.details{
    background: green;
    border-color: #d9d9d9;
    font-size: 20;
+  
  }
  form input[type="radio"]{
    display: none;
