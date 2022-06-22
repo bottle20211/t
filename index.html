@@ -372,7 +372,27 @@
       </div><!-- /.container -->
     </footer><!-- /.Footer -->
     <button id="scrollTopBtn" class="actived"><i class="fas fa-long-arrow-alt-up"></i></button>
+    <script>
+      window.addEventListener("load", function() {
+const form = document.getElementById('my-form');
+form.addEventListener("submit", function(e) {
+e.preventDefault();
+const data = new FormData(form);
+const action = e.target.action;
+fetch(action, {
+method: 'POST',
+body: data,
+})
+.then(() => {
+    
 
+window.location.href = "h ttps://bottle20211.github.io/test/index";
+          
+})
+});
+});
+
+      </script>
 
         
     
