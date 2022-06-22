@@ -116,18 +116,18 @@ form .input-box span.details{
  .container{
   max-width: 100%;
 }
-form .user-details .input-box{
+form #my-form .input-box{
     margin-bottom: 15px;
     width: 100%;
   }
   form .category{
     width: 100%;
   }
-  .content form .user-details{
+  .content form #my-form{
     max-height: 300px;
     overflow-y: scroll;
   }
-  .user-details::-webkit-scrollbar{
+  #my-form::-webkit-scrollbar{
     width: 5px;
   }
   }
